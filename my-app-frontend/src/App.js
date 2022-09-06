@@ -1,5 +1,13 @@
-import logo from './logo.svg';
 import './App.css';
+import React from 'react';
+import NavBar from "./NavBar.js";
+import {Route, Routes} from 'react-router-dom';
+import Home from './Home.js';
+import Chats from './Chats.js';
+import Customers from './Customers.js';
+import SalesPerson from './SalesPersons.js';
+import Tasks from './Tasks.js';
+
 
 function App() {
   return (
