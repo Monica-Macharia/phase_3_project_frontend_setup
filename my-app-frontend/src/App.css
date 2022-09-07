@@ -161,3 +161,309 @@
   text-align: center;
   background-color: lightblue;
 }
+p.tasker1{
+  /* flex: 90%; */
+  padding: 50px;
+  border-radius:10%;
+  height: 100px;
+  width: 150px;
+  /* margin-left: 500px;
+  margin-top: -25px; */
+  text-align: center;
+  background-color: lightblue;
+  margin-top: -130px;
+}
+p.tasker2{
+  /* flex: 90%; */
+  padding: 50px;
+  border-radius:10%;
+  height: 100px;
+  margin-top: -130px; 
+  width: 150px;
+  /* margin-left: 500px;
+  margin-top: -5px; */
+  text-align: center;
+  background-color: rgb(180, 97, 180);
+}
+p.tasker3{
+  /* flex: 90%; */
+  padding: 50px;
+  border-radius:10%;
+  height: 100px;
+  width: 150px;
+  /* margin-left: 500px;
+  margin-top: -5px; */
+  text-align: center;
+  background-color: lightpink;
+  margin-top: -130px;
+}
+p.tasker4{
+  /* flex: 90%; */
+  padding: 50px;
+  border-radius:10%;
+  height: 100px;
+  width: 150px;
+  margin-top: -130px;
+  /* margin-left: 500px;
+  margin-top: -5px; */
+  text-align: center;
+  background-color: rgb(233, 233, 54);
+ 
+}
+p.tasker5{
+  /* flex: 90%; */
+  padding: 50px;
+  border-radius:10%;
+  height: 100px;
+  width: 150px;
+  /* margin-left: 500px;
+  margin-top: -25px; */
+  text-align: center;
+  margin-top: -120px;
+  background-color: lightblue;
+}
+p.tasker6{
+  /* flex: 90%; */
+  padding: 50px;
+  
+  border-radius:10%;
+  height: 100px;
+  width: 150px;
+  /* margin-left: 500px; */
+  margin-top: -120px; 
+  text-align: center;
+  background-color: rgb(180, 97, 180);
+}
+p.tasker7{
+  /* flex: 90%; */
+  padding: 50px;
+  border-radius:10%;
+  height: 100px;
+  width: 150px;
+  /* margin-left: 500px;
+  margin-top: -5px; */
+  text-align: center;
+  margin-top: -120px;
+  background-color: lightpink;
+}
+p.tasker8{
+  /* flex: 90%; */
+  padding: 50px;
+  border-radius:10%;
+  height: 100px;
+  width: 150px;
+  /* margin-left: 500px;
+  margin-top: -5px; */
+  text-align: center;
+  margin-top: -120px;
+  background-color: green;
+ 
+}
+h1.plusplus{
+  font-size: 50px;
+  
+}
+/* div.orders{
+  float:left;
+  
+} */
+div.tasker{
+  width: 150px;
+  float:left;
+  padding: 70px;
+}
+
+div.customer{
+  width: 150px;
+  float:left;
+  padding: 70px;
+}
+
+p.customer1{
+  /* flex: 90%; */
+  padding: 50px;
+  border-radius:10%;
+  height: 100px;
+  width: 150px;
+  /* margin-left: 500px;
+  margin-top: -25px; */
+  text-align: center;
+  background-color: lightblue;
+  margin-top: -130px;
+}
+p.customer2{
+  /* flex: 90%; */
+  padding: 50px;
+  border-radius:10%;
+  height: 100px;
+  margin-top: -130px; 
+  width: 150px;
+  /* margin-left: 500px;
+  margin-top: -5px; */
+  text-align: center;
+  background-color: rgb(180, 97, 180);
+}
+p.customer3{
+  /* flex: 90%; */
+  padding: 50px;
+  border-radius:10%;
+  height: 100px;
+  width: 150px;
+  /* margin-left: 500px;
+  margin-top: -5px; */
+  text-align: center;
+  background-color: lightpink;
+  margin-top: -130px;
+}
+p.customer4{
+  /* flex: 90%; */
+  padding: 50px;
+  border-radius:10%;
+  height: 100px;
+  width: 150px;
+  margin-top: -130px;
+  /* margin-left: 500px;
+  margin-top: -5px; */
+  text-align: center;
+  background-color: rgb(233, 233, 54);
+ 
+}
+p.customer5{
+  /* flex: 90%; */
+  padding: 50px;
+  border-radius:10%;
+  height: 100px;
+  width: 150px;
+  /* margin-left: 500px;
+  margin-top: -25px; */
+  text-align: center;
+  margin-top: -120px;
+  background-color: lightblue;
+}
+p.customer6{
+  /* flex: 90%; */
+  padding: 50px;
+  
+  border-radius:10%;
+  height: 100px;
+  width: 150px;
+  /* margin-left: 500px; */
+  margin-top: -120px; 
+  text-align: center;
+  background-color: rgb(180, 97, 180);
+}
+p.customer7{
+  /* flex: 90%; */
+  padding: 50px;
+  border-radius:10%;
+  height: 100px;
+  width: 150px;
+  /* margin-left: 500px;
+  margin-top: -5px; */
+  text-align: center;
+  margin-top: -120px;
+  background-color: lightpink;
+}
+p.seller1{
+  /* flex: 90%; */
+  padding: 50px;
+  border-radius:10%;
+  height: 100px;
+  width: 150px;
+  /* margin-left: 500px;
+  margin-top: -25px; */
+  text-align: center;
+  background-color: lightblue;
+  margin-top: -130px;
+}
+p.seller2{
+  /* flex: 90%; */
+  padding: 50px;
+  border-radius:10%;
+  height: 100px;
+  margin-top: -130px; 
+  width: 150px;
+  /* margin-left: 500px;
+  margin-top: -5px; */
+  text-align: center;
+  background-color: rgb(180, 97, 180);
+}
+p.seller3{
+  /* flex: 90%; */
+  padding: 50px;
+  border-radius:10%;
+  height: 100px;
+  width: 150px;
+  /* margin-left: 500px;
+  margin-top: -5px; */
+  text-align: center;
+  background-color: lightpink;
+  margin-top: -130px;
+}
+p.seller4{
+  /* flex: 90%; */
+  padding: 50px;
+  border-radius:10%;
+  height: 100px;
+  width: 150px;
+  margin-top: -130px;
+  /* margin-left: 500px;
+  margin-top: -5px; */
+  text-align: center;
+  background-color: rgb(233, 233, 54);
+ 
+}
+p.seller5{
+  /* flex: 90%; */
+  padding: 50px;
+  border-radius:10%;
+  height: 100px;
+  width: 150px;
+  /* margin-left: 500px;
+  margin-top: -25px; */
+  text-align: center;
+  margin-top: -120px;
+  background-color: lightblue;
+}
+p.seller6{
+  /* flex: 90%; */
+  padding: 50px;
+  
+  border-radius:10%;
+  height: 100px;
+  width: 150px;
+  /* margin-left: 500px; */
+  margin-top: -120px; 
+  text-align: center;
+  background-color: rgb(180, 97, 180);
+}
+p.seller7{
+  /* flex: 90%; */
+  padding: 50px;
+  border-radius:10%;
+  height: 100px;
+  width: 150px;
+  /* margin-left: 500px;
+  margin-top: -5px; */
+  text-align: center;
+  margin-top: -120px;
+  background-color: lightpink;
+}
+div.sellers{
+  width: 150px;
+  float:left;
+  padding: 70px;
+}
+/* h1.add{
+  padding: 50px;
+  border-radius:10%;
+  height: 100px;
+  width: 150px;
+  /* margin-left: 500px;
+  margin-top: -5px; */
+  /* text-align: center;
+  margin-top: 900px;
+ 
+  
+  background-color: green;
+} */ 

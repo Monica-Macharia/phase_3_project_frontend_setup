@@ -1,17 +1,16 @@
 import React from 'react';
 
-
-function Tasks(){
+function PopularProducts(){
     return (
-    <div className="appBody">
-        <p className= "order"><h2>Today's Tasks!</h2></p>
-       
-        <div className= "orders">
-       
         
-        
-        <div className= "tasker">
-            <p className = "tasker1">
+        <div className="appBody">
+        <p className= "popular"><h2>Customer's Profile!</h2></p>
+       
+        <div className= "products">
+       
+               
+        <div className= "pop">
+            <p className = "pop1">
             <span><b>Today</b>
             </span><br/>
            <span>9:40 AM 
@@ -24,8 +23,8 @@ function Tasks(){
          </p>
         </div>
 
-        <div className= "tasker">
-            <p className = "tasker2">
+        <div className= "pop">
+            <p className = "pop2">
            <span><b>Messages</b>
             </span><br/>
            <span>30 unread messages
@@ -36,8 +35,8 @@ function Tasks(){
          </p>
         </div>
 
-        <div className= "tasker">
-            <p className = "tasker3">
+        <div className= "pop">
+            <p className = "pop3">
            <span><b>Pending Tasks</b> 
             </span><br/>
            <span>70 pending
@@ -48,8 +47,8 @@ function Tasks(){
          </p>
         </div>
 
-        <div className= "tasker">
-            <p className = "tasker4">
+        <div className= "pop">
+            <p className = "pop4">
            <span><b>Monthly Sales Target</b>
             </span><br/>
            <span> $45000
@@ -60,8 +59,8 @@ function Tasks(){
          </p>
         </div>
 
-        <div className= "tasker">
-            <p className = "tasker5">
+        <div className= "pop">
+            <p className = "pop5">
             <span><b>Today</b>
             </span><br/>
            <span>9:40 AM 
@@ -74,8 +73,8 @@ function Tasks(){
          </p>
         </div>
 
-        <div className= "tasker">
-            <p className = "tasker6">
+        <div className= "pop">
+            <p className = "pop6">
            <span><b>Messages</b>
             </span><br/>
            <span>30 unread messages
@@ -85,8 +84,8 @@ function Tasks(){
          </p>
         </div>
 
-        <div className= "tasker">
-            <p className = "tasker7">
+        <div className= "pop">
+            <p className = "pop7">
            <span><b>Pending Tasks</b> 
             </span><br/>
            <span>70 pending
@@ -95,14 +94,20 @@ function Tasks(){
             </div>
          </p>
         </div>
-
-        <div className= "tasker">
-            <p className = "tasker8">
-            <div className = "plus">
-                <h1 className = "plusplus"> <b>+</b> </h1>
+        <div className= "pop">
+            <p className = "pop8">
+           <span><b>Pending Tasks</b> 
+            </span><br/>
+           <span>70 pending
+            </span> <div className = "delete">
+                <button>Delete</button>
             </div>
          </p>
         </div>
+       
+       
+
+        
         
 
         
@@ -117,4 +122,4 @@ function Tasks(){
 )
 }
 
-export default Tasks;
+export default PopularProducts;

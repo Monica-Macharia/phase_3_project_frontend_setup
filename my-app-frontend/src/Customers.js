@@ -1,62 +1,114 @@
-// import React, { useEffect, useState } from 'react';
-// import Child from './Child'
 import React from 'react';
 
 
 function Customers(){
     return (
+    <div className="appBody">
+        <p className= "customer"><h2>Customer's Profile!</h2></p>
+       
+        <div className= "customers">
+       
+               
+        <div className= "customer">
+            <p className = "customer1">
+            <span><b>Today</b>
+            </span><br/>
+           <span>9:40 AM 
+            </span><br/>
+           <span>October 7
+            </span>
+            <div className = "delete">
+                <button>Delete</button>
+            </div>
+         </p>
+        </div>
+
+        <div className= "customer">
+            <p className = "customer2">
+           <span><b>Messages</b>
+            </span><br/>
+           <span>30 unread messages
+            </span>
+            <div className = "delete">
+                <button>Delete</button>
+            </div>
+         </p>
+        </div>
+
+        <div className= "customer">
+            <p className = "customer3">
+           <span><b>Pending Tasks</b> 
+            </span><br/>
+           <span>70 pending
+            </span>
+            <div className = "delete">
+                <button>Delete</button>
+            </div>
+         </p>
+        </div>
+
+        <div className= "customer">
+            <p className = "customer4">
+           <span><b>Monthly Sales Target</b>
+            </span><br/>
+           <span> $45000
+            </span>
+            <div className = "delete">
+                <button>Delete</button>
+            </div>
+         </p>
+        </div>
+
+        <div className= "customer">
+            <p className = "customer5">
+            <span><b>Today</b>
+            </span><br/>
+           <span>9:40 AM 
+            </span><br/>
+           <span>October 7
+            </span>
+            <div className = "delete">
+                <button>Delete</button>
+            </div>
+         </p>
+        </div>
+
+        <div className= "customer">
+            <p className = "customer6">
+           <span><b>Messages</b>
+            </span><br/>
+           <span>30 unread messages
+            </span> <div className = "delete">
+                <button>Delete</button>
+            </div>
+         </p>
+        </div>
+
+        <div className= "customer">
+            <p className = "customer7">
+           <span><b>Pending Tasks</b> 
+            </span><br/>
+           <span>70 pending
+            </span> <div className = "delete">
+                <button>Delete</button>
+            </div>
+         </p>
+        </div>
+       
+
         
-    <div className = "hard">
-        lololol
-        {/* <img src="https://images.unsplash.com/photo-1560145725-8cbf9768b73a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NTc3fHxyZXN0YXVyYW50fGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60" alt= "pic"/>
-        <img src="https://images.unsplash.com/photo-1592335450225-77789f2cee5a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NTgzfHxyZXN0YXVyYW50fGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60" alt= "pic"/>
-        <img src="https://images.unsplash.com/photo-1526318896980-cf78c088247c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NDJ8fGFmcmljYW4lMjBlYXRpbmd8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60" alt= "pic"/>
-        <img src="https://images.unsplash.com/photo-1604882406305-67a5b1376126?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MjY1fHxhZnJpY2FuJTIwZWF0aW5nfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60" alt= "pic"/>
-        <img src="https://images.unsplash.com/photo-1555939594-58d7cb561ad1?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8YWZyaWNhbiUyMGZvb2R8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60" alt= "pic"/>
-        <img src="https://images.unsplash.com/photo-1608500218861-01091cdc501e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8YWZyaWNhbiUyMGZvb2R8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60" alt= "pic"/>
-        <img src="https://images.unsplash.com/photo-1508615263227-c5d58c1e5821?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Nnx8YWZyaWNhbiUyMGZvb2R8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60" alt= "pic"/>
         
-         */}
+
+        
+
+
+        </div>
+        
+   
+    
+
     </div>
 )
 }
-
-
-
-
-// function Customers(props){
-//     const[data, setData] = useState([]);
-//     const [onLoad, setOnLoad]= useState(false);
-
-//    useEffect(()=>{
-    
-//      fetch("https://www.themealdb.com/api/json/v1/1/categories.php")
-//     .then((res) => res.json())
-//     .then((json)=> { 
-        
-//         setData(json.categories);
-//         setOnLoad(true);
-//     });
-    
-    
-//     }, []);
-//     console.log(
-//         data)
-//     if (!onLoad) return <h3>Loading...</h3>;
-//     return (
-//     <div className = "fetched">
-        
-//         {data.map((meal)=> 
-//     <Child
-//     key = {meal.idCategory}
-//     category={meal.strCategory}
-//     thumb= {meal.strCategoryThumb} 
-//     description = {meal.strCategoryDescription} />
-//         )}
-           
-        
-//     </div>
-// )
-// }
 
 export default Customers;

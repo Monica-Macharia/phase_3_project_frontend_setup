@@ -4,14 +4,14 @@ import React from 'react';
 function Home(){
     return (
     <div className="appBody">
-        <p className= "greet"><h2>Welcome Back Kito!</h2></p>
+        <p className= "greet"><h2>Welcome!</h2></p>
         
         <div id = "tasks">
        
         
         <div className= "boxT">
         <p className = "big1">
-           <span>On-time Completion Rate 
+           <span>Completion Rate 
             </span><br/>
            <span>97% <em><b>+2%</b></em> <img id = "higher" src="https://images.pexels.com/photos/6289065/pexels-photo-6289065.jpeg?auto=compress&cs=tinysrgb&w=600" alt= "high"/>
             </span>
@@ -19,6 +19,7 @@ function Home(){
         </div>
         <div className= "box">
             <p className = "box1">
+            
            <span>9:40 AM 
             </span><br/>
            <span>October 7
@@ -28,7 +29,7 @@ function Home(){
 
         <div className= "box">
             <p className = "box2">
-           <span>Messages
+           <span><b>Messages</b>
             </span><br/>
            <span>30 unread messages
             </span>
@@ -37,7 +38,7 @@ function Home(){
 
         <div className= "box">
             <p className = "box3">
-           <span> Pending Tasks
+           <span><b>Pending Tasks</b> 
             </span><br/>
            <span>70 pending
             </span>
@@ -46,7 +47,7 @@ function Home(){
 
         <div className= "box">
             <p className = "box4">
-           <span>Monthly Sales Target
+           <span><b>Monthly Sales Target</b>
             </span><br/>
            <span> $45000
             </span>
@@ -61,7 +62,7 @@ function Home(){
             </span><br/>
            <span> Location: Nakuru
             </span><br />
-            <span>10th September 2022</span><br/>
+            {/* <span>10th September 2022</span><br/> */}
            
          </p>
          </div>

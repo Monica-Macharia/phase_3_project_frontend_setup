@@ -10,9 +10,9 @@ const styles = {
     textDecoration: "none",
     color: "black",
     
-    margin: "0",
-    padding: "0",
-    width: "180px",
+    // margin: "0",
+    // padding: "0",
+    // width: "180px",
     // color: "#f1f1f1",
   };
   function NavBar(){
