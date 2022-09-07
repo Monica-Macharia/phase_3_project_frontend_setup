@@ -9,11 +9,13 @@ import SalesPersons from './SalesPersons.js';
 import Tasks from './Tasks.js';
 
 
+
 function App() {
 
   return (
-    <nav className="navbar">
+    <div className="navbar">
       {<NavBar/> }
+     
       <Routes>
         <Route path="/" element={<Home />}/>
         <Route path="/Tasks" element={<Tasks />}/>
@@ -22,7 +24,7 @@ function App() {
         <Route path="/Chats" element={<Chats />} />
 
       </Routes>
-      </nav> 
+      </div> 
   );
 }
 

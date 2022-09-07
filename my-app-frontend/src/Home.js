@@ -1,35 +1,101 @@
-// import React from 'react';
+import React from 'react';
 
 
-// function Home(){
-//     return (
-//     <div className="appBody">
-//         {/* <div style={{ 
-//       backgroundImage: `url("https://images.unsplash.com/photo-1556379069-7c1b1b8990b0?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8YWZyaWNhbnxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60")` 
-//     }}></div> */}
-//     <div className= "container">
-//        <h2>
-//            Offering the best African Dishes
-//         </h2> 
-//         <p>
-//         <span> Dishes prepared in Africana are carefully selected </span><br/>from hundreds of tribes accross the African continent.
-//            <span><br/> Each made with love.</span>
-//         </p>
-//         <div>
-//             <button className = "color">Explore</button>
-//         </div>
-//         </div>
-//         <div id = "main">
-//          <img id= "floor" src="https://images.unsplash.com/photo-1565695040813-8812dba10aca?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NTc1fHxyZXN0YXVyYW50fGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60" alt = "hotel"/> 
-//         </div>
-//         <div id= "choma">
-//         <img id = "meat" src="https://images.unsplash.com/photo-1508615263227-c5d58c1e5821?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Nnx8YWZyaWNhbiUyMGZvb2R8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60" alt= "Main dish"/>
-//         </div>
+function Home(){
+    return (
+    <div className="appBody">
+        <p className= "greet"><h2>Welcome Back Kito!</h2></p>
+        
+        <div id = "tasks">
+       
+        
+        <div className= "boxT">
+        <p className = "big1">
+           <span>On-time Completion Rate 
+            </span><br/>
+           <span>97% <em><b>+2%</b></em> <img id = "higher" src="https://images.pexels.com/photos/6289065/pexels-photo-6289065.jpeg?auto=compress&cs=tinysrgb&w=600" alt= "high"/>
+            </span>
+         </p>
+        </div>
+        <div className= "box">
+            <p className = "box1">
+           <span>9:40 AM 
+            </span><br/>
+           <span>October 7
+            </span>
+         </p>
+        </div>
+
+        <div className= "box">
+            <p className = "box2">
+           <span>Messages
+            </span><br/>
+           <span>30 unread messages
+            </span>
+         </p>
+        </div>
+
+        <div className= "box">
+            <p className = "box3">
+           <span> Pending Tasks
+            </span><br/>
+           <span>70 pending
+            </span>
+         </p>
+        </div>
+
+        <div className= "box">
+            <p className = "box4">
+           <span>Monthly Sales Target
+            </span><br/>
+           <span> $45000
+            </span>
+         </p>
+        </div>
+
+        <div className= "weeklyplans">
+           
+           <div className= "large">
+            <p className = "large1">
+           <span><b>Package Delivery</b>
+            </span><br/>
+           <span> Location: Nakuru
+            </span><br />
+            <span>10th September 2022</span><br/>
+           
+         </p>
+         </div>
+         <div className= "large">
+            <p className = "large2">
+           <span><b>Meeting with client</b>
+            </span><br/>
+            <span>14th September- 22th September 2022
+                </span> <br/>
+                
+            <span>Ask for feedback.</span><br/>
+
+            
+
+            
+            
+         </p>
+         </div>
+         <div className= "large">
+            <p className = "large3">
+           
+         </p>
+         <img className = "image" src="https://images.pexels.com/photos/8850856/pexels-photo-8850856.jpeg?auto=compress&cs=tinysrgb&w=600" alt = "election"/>
+         </div>
+        </div>
+
+
+        </div>
+        
         
     
 
-//     </div>
-// )
-// }
+    </div>
+)
+}
 
-// export default Home;
+export default Home;

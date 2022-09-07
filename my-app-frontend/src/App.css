@@ -1,4 +1,4 @@
-.App {
+/* .App {
   text-align: center;
 }
 
@@ -35,4 +35,129 @@
   to {
     transform: rotate(360deg);
   }
+} */
+/* 
+  div.navbar{
+ background-color: black;
+  
+  width: 100%;
+
+} */
+ .elements{ float: right;
+  /* position: absolute;
+  left: -160px;
+  top: 140px; */
+  font-size: 20px;
+  /* text-align: left; */
+  padding: 0px 60px 0 98px;
+  margin: 70px;
+  margin-top: -30px;
+  /* display: flex;
+  flex-direction:column;
+  background-color: blue; */
+  /* position: relative; */
+
+  
+ }
+ .elements a.active{
+  padding: 0px 20px; 
+ 
+ }
+ div.bar h1.name b{
+   color: black;
+   position:relative;
+   margin-top: 90px;
+ }
+ div.appBody{
+   margin-top: 90px;
+   margin-left: 90px;
+   font-size: 20px;
+
+ }
+ p.big1{
+  flex: 90%;
+  padding: 5px;
+  border-radius:10%;
+  height: 250px;
+  width: 300px;
+  margin-left: 90px;
+  margin-top: 40px;
+  background-color: rgb(57, 5, 57);
+  color: white;
+  text-align: center;
+ }
+ img#higher{
+   margin-left: 69px;
+   margin-top: 89px;
+   max-width: 70%; 
+   height: auto;
+   border-radius: 5%;
+ }
+ p.box1{
+  flex: 90%;
+  padding: 5px;
+  border-radius:10%;
+  height: 100px;
+  width: 150px;
+  margin-left: 500px;
+  margin-top: -305px;
+  text-align: center;
+  background-color: lightblue;
+ }
+ p.box2{
+  flex: 90%;
+  padding: 5px;
+  border-radius:10%;
+  height: 100px;
+  width: 150px;
+  text-align: center;
+  margin-left: 500px;
+  background-color: rgb(180, 97, 180);
+ }
+ p.box3{
+  flex: 90%;
+  padding: 5px;
+  border-radius:10%;
+  height: 100px;
+  width: 150px;
+  margin-left: 500px;
+  text-align: center;
+  background-color: lightpink;
+ }
+ p.box4{
+  flex: 90%;
+  padding: 5px;
+  border-radius:10%;
+  height: 100px;
+  width: 150px;
+  margin-left: 500px;
+  text-align: center;
+  background-color: rgb(233, 233, 54);
+ }
+ div.weeklyplans{
+  margin-left: 765px;
+  margin-top: -519px;
+ }
+ img.image{
+  max-width: 70%; 
+  height: auto;
+  border-radius: 5%;
+ }
+ p.large1{
+   flex: 90%;
+   padding: 5px;
+   border-radius:5%;
+   height: 90px;
+   width: 405px;
+   text-align: center;
+   background-color: lightpink;;
+ }
+ p.large2{
+  flex: 90%;
+  padding: 5px;
+  border-radius:5%;
+  height: 90px;
+  width: 405px;
+  text-align: center;
+  background-color: lightblue;
 }

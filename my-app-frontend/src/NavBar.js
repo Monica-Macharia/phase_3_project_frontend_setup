@@ -9,13 +9,19 @@ const styles = {
     margin: "17px 16px 16px",
     textDecoration: "none",
     color: "black",
+    
+    margin: "0",
+    padding: "0",
+    width: "180px",
+    // color: "#f1f1f1",
   };
   function NavBar(){
     return (
       
-        <div className = "bar">
-          <img className= "logo" src="https://images.unsplash.com/photo-1614529303008-4762ea020a49?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTk4fHxzbWFsbCUyMGltYWdlc3xlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60" alt= "logo"/> 
-          <p className= "name"><b>Sales Tracker</b></p>
+        <div className = "bar" >
+          
+          <h1 className= "name"><b>Sales Tracker</b></h1>
+              <nav className= "elements">
       
             <NavLink to = "./" exact = "true"
             style={styles}
@@ -54,6 +60,7 @@ const styles = {
                 background: "darkblue",
               }} 
             > Chats </NavLink>
+            </nav>
         </div>
         
     )
