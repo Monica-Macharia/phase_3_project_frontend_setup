@@ -467,3 +467,106 @@ div.sellers{
   
   background-color: green;
 } */ 
+
+p.pop1{
+  /* flex: 90%; */
+  padding: 50px;
+  border-radius:10%;
+  height: 100px;
+  width: 150px;
+  /* margin-left: 500px;
+  margin-top: -25px; */
+  text-align: center;
+  background-color: lightblue;
+  margin-top: -130px;
+}
+p.pop2{
+  /* flex: 90%; */
+  padding: 50px;
+  border-radius:10%;
+  height: 100px;
+  margin-top: -130px; 
+  width: 150px;
+  /* margin-left: 500px;
+  margin-top: -5px; */
+  text-align: center;
+  background-color: rgb(180, 97, 180);
+}
+p.pop3{
+  /* flex: 90%; */
+  padding: 50px;
+  border-radius:10%;
+  height: 100px;
+  width: 150px;
+  /* margin-left: 500px;
+  margin-top: -5px; */
+  text-align: center;
+  background-color: lightpink;
+  margin-top: -130px;
+}
+p.pop4{
+  /* flex: 90%; */
+  padding: 50px;
+  border-radius:10%;
+  height: 100px;
+  width: 150px;
+  margin-top: -130px;
+  /* margin-left: 500px;
+  margin-top: -5px; */
+  text-align: center;
+  background-color: rgb(233, 233, 54);
+ 
+}
+p.pop5{
+  /* flex: 90%; */
+  padding: 50px;
+  border-radius:10%;
+  height: 100px;
+  width: 150px;
+  /* margin-left: 500px;
+  margin-top: -25px; */
+  text-align: center;
+  margin-top: -120px;
+  background-color: lightblue;
+}
+p.pop6{
+  /* flex: 90%; */
+  padding: 50px;
+  
+  border-radius:10%;
+  height: 100px;
+  width: 150px;
+  /* margin-left: 500px; */
+  margin-top: -120px; 
+  text-align: center;
+  background-color: rgb(180, 97, 180);
+}
+p.pop7{
+  /* flex: 90%; */
+  padding: 50px;
+  border-radius:10%;
+  height: 100px;
+  width: 150px;
+  /* margin-left: 500px;
+  margin-top: -5px; */
+  text-align: center;
+  margin-top: -120px;
+  background-color: lightpink;
+}
+p.pop8{
+  /* flex: 90%; */
+  padding: 50px;
+  border-radius:10%;
+  height: 100px;
+  width: 150px;
+  /* margin-left: 500px;
+  margin-top: -5px; */
+  text-align: center;
+  margin-top: -120px;
+  background-color: yellow;
+}
+div.pop{
+  width: 150px;
+  float:left;
+  padding: 70px;
+}

@@ -54,12 +54,12 @@ const styles = {
               }}
             > SalesPersons
             </NavLink>
-            <NavLink to = "/Chats" exact ="true"
+            <NavLink to = "/PopularProducts" exact ="true"
             style={styles}
             activeclassname={{
                 background: "darkblue",
               }} 
-            > Chats </NavLink>
+            > Popular </NavLink>
             </nav>
         </div>
         
