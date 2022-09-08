@@ -2,6 +2,10 @@ import React from 'react';
 
 
 function Home(){
+const currentTime = new Date().toString()
+
+
+
     return (
     <div className="appBody">
         <p className= "greet"><h2>Welcome!</h2></p>
@@ -19,11 +23,13 @@ function Home(){
         </div>
         <div className= "box">
             <p className = "box1">
+            <p id= "timer">{currentTime}</p>
             
-           <span>9:40 AM 
-            </span><br/>
-           <span>October 7
-            </span>
+
+           {/* <span>9:40 AM 
+            </span><br/> */}
+           {/* <span>October 7
+            </span> */}
          </p>
         </div>
 

@@ -575,3 +575,7 @@ img.zoom{
   width: 150px;
   
 }
+p#timer{
+  font-size: 17px;
+  text-align: center;
+}
