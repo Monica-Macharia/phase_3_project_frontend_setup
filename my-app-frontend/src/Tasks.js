@@ -12,15 +12,15 @@ function Tasks(){
         
         <div className= "tasker">
             <p className = "tasker1">
-            <span><b>Today</b>
-            </span><br/>
-
-            
-           <span>9:40 AM 
-            </span><br/>
-           <span>October 7
-            </span>
-            <div className = "delete">
+            Name: <br/>
+            Price:<br /> 
+            Status: <br />
+            Customer_id: <br />
+            Employee_id: <br />
+            <div className = "updater">
+                <button>Change Price</button>
+            </div>
+            <div className = "deleter">
                 <button>Delete</button>
             </div>
          </p>
@@ -28,11 +28,15 @@ function Tasks(){
 
         <div className= "tasker">
             <p className = "tasker2">
-           <span><b>Messages</b>
-            </span><br/>
-           <span>30 unread messages
-            </span>
-            <div className = "delete">
+            Name: <br/>
+            Price:<br /> 
+            Status: <br />
+            Customer_id: <br />
+            Employee_id: <br />
+            <div className = "updater">
+                <button>Change Price</button>
+            </div>
+            <div className = "deleter">
                 <button>Delete</button>
             </div>
          </p>
@@ -40,11 +44,15 @@ function Tasks(){
 
         <div className= "tasker">
             <p className = "tasker3">
-           <span><b>Pending Tasks</b> 
-            </span><br/>
-           <span>70 pending
-            </span>
-            <div className = "delete">
+            Name: <br/>
+            Price:<br /> 
+            Status: <br />
+            Customer_id: <br />
+            Employee_id: <br />
+            <div className = "updater">
+                <button>Change Price</button>
+            </div>
+            <div className = "deleter">
                 <button>Delete</button>
             </div>
          </p>
@@ -52,11 +60,15 @@ function Tasks(){
 
         <div className= "tasker">
             <p className = "tasker4">
-           <span><b>Monthly Sales Target</b>
-            </span><br/>
-           <span> $45000
-            </span>
-            <div className = "delete">
+            Name: <br/>
+            Price:<br /> 
+            Status: <br />
+            Customer_id: <br />
+            Employee_id: <br />
+            <div className = "updater">
+                <button>Change Price</button>
+            </div>
+            <div className = "deleter">
                 <button>Delete</button>
             </div>
          </p>
@@ -64,13 +76,15 @@ function Tasks(){
 
         <div className= "tasker">
             <p className = "tasker5">
-            <span><b>Today</b>
-            </span><br/>
-           <span>9:40 AM 
-            </span><br/>
-           <span>October 7
-            </span>
-            <div className = "delete">
+            Name: <br/>
+            Price:<br /> 
+            Status: <br />
+            Customer_id: <br />
+            Employee_id: <br />
+            <div className = "updater">
+                <button>Change Price</button>
+            </div>
+            <div className = "deleter">
                 <button>Delete</button>
             </div>
          </p>
@@ -78,10 +92,15 @@ function Tasks(){
 
         <div className= "tasker">
             <p className = "tasker6">
-           <span><b>Messages</b>
-            </span><br/>
-           <span>30 unread messages
-            </span> <div className = "delete">
+            Name: <br/>
+            Price:<br /> 
+            Status: <br />
+            Customer_id: <br />
+            Employee_id: <br />
+            <div className = "updater">
+                <button>Change Price</button>
+            </div>
+            <div className = "deleter">
                 <button>Delete</button>
             </div>
          </p>
@@ -89,22 +108,48 @@ function Tasks(){
 
         <div className= "tasker">
             <p className = "tasker7">
-           <span><b>Pending Tasks</b> 
-            </span><br/>
-           <span>70 pending
-            </span> <div className = "delete">
+            Name: <br/>
+            Price:<br /> 
+            Status: <br />
+            Customer_id: <br />
+            Employee_id: <br />
+            <div className = "updater">
+                <button>Change Price</button>
+            </div>
+            <div className = "deleter">
                 <button>Delete</button>
             </div>
          </p>
         </div>
 
-        <div className= "tasker">
-            <p className = "tasker8">
-            <div className = "plus">
-                <h1 className = "plusplus"> <b>+</b> </h1>
-            </div>
-         </p>
-        </div>
+       
+            <form className = "formTask">
+                <label>
+                    Name:
+                    <input type = "text" name="name" value= "value" />
+                </label>
+                <label>
+                    Price:
+                    <input type = "number" name="price" value= "value" />
+                </label>
+                <label>
+                    Status:
+                    <input type = "text" name="status" value= "value" />
+                </label>
+                <label>
+                    Customer_id:
+                    <input type = "number" name="customer_id" value= "value" />
+                </label>
+                <label>
+                    Employee_id:
+                    <input type = "number" name="number" value= "value" />
+                </label>
+                <label>
+             <input type="submit" name="Submit" />
+         </label>
+        </form>
+       
+     
         
 
         

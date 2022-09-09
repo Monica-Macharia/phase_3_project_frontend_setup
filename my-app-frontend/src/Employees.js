@@ -1,7 +1,7 @@
 import React from 'react';
 
 
-function SalesPersons(){
+function Employees(){
     return (
     <div className="appBody">
         <p className= "sales"><h2>Sales Team</h2></p>
@@ -11,12 +11,10 @@ function SalesPersons(){
                
         <div className= "sellers">
             <p className = "seller1">
-            <span><b>Today</b>
-            </span><br/>
-           <span>9:40 AM 
-            </span><br/>
-           <span>October 7
-            </span>
+            Name: <br/>
+            Location:<br /> 
+            Contact: <br />
+            Comment: <br />
             <div className = "delete">
                 <button>Delete</button>
             </div>
@@ -25,10 +23,10 @@ function SalesPersons(){
 
         <div className= "sellers">
             <p className = "seller2">
-           <span><b>Messages</b>
-            </span><br/>
-           <span>30 unread messages
-            </span>
+            Name: <br/>
+            Location:<br /> 
+            Contact: <br />
+            Comment: <br />
             <div className = "delete">
                 <button>Delete</button>
             </div>
@@ -37,10 +35,10 @@ function SalesPersons(){
 
         <div className= "sellers">
             <p className = "seller3">
-           <span><b>Pending Tasks</b> 
-            </span><br/>
-           <span>70 pending
-            </span>
+            Name: <br/>
+            Location:<br /> 
+            Contact: <br />
+            Comment: <br />
             <div className = "delete">
                 <button>Delete</button>
             </div>
@@ -49,10 +47,10 @@ function SalesPersons(){
 
         <div className= "sellers">
             <p className = "seller4">
-           <span><b>Monthly Sales Target</b>
-            </span><br/>
-           <span> $45000
-            </span>
+            Name: <br/>
+            Location:<br /> 
+            Contact: <br />
+            Comment: <br />
             <div className = "delete">
                 <button>Delete</button>
             </div>
@@ -61,12 +59,10 @@ function SalesPersons(){
 
         <div className= "sellers">
             <p className = "seller5">
-            <span><b>Today</b>
-            </span><br/>
-           <span>9:40 AM 
-            </span><br/>
-           <span>October 7
-            </span>
+            Name: <br/>
+            Location:<br /> 
+            Contact: <br />
+            Comment: <br />
             <div className = "delete">
                 <button>Delete</button>
             </div>
@@ -75,10 +71,11 @@ function SalesPersons(){
 
         <div className= "sellers">
             <p className = "seller6">
-           <span><b>Messages</b>
-            </span><br/>
-           <span>30 unread messages
-            </span> <div className = "delete">
+            Name: <br/>
+            Location:<br /> 
+            Contact: <br />
+            Comment: <br />
+             <div className = "delete">
                 <button>Delete</button>
             </div>
          </p>
@@ -86,10 +83,11 @@ function SalesPersons(){
 
         <div className= "sellers">
             <p className = "seller7">
-           <span><b>Pending Tasks</b> 
-            </span><br/>
-           <span>70 pending
-            </span> <div className = "delete">
+            Name: <br/>
+            Location:<br /> 
+            Contact: <br />
+            Comment: <br />
+             <div className = "delete">
                 <button>Delete</button>
             </div>
          </p>
@@ -110,4 +108,4 @@ function SalesPersons(){
 )
 }
 
-export default SalesPersons;
+export default Employees;

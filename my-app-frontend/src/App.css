@@ -169,7 +169,8 @@ p.tasker1{
   width: 150px;
   /* margin-left: 500px;
   margin-top: -25px; */
-  text-align: center;
+  text-align: left;
+  font-size: 15px;
   background-color: lightblue;
   margin-top: -130px;
 }
@@ -182,7 +183,8 @@ p.tasker2{
   width: 150px;
   /* margin-left: 500px;
   margin-top: -5px; */
-  text-align: center;
+  text-align: left;
+  font-size: 15px;
   background-color: rgb(180, 97, 180);
 }
 p.tasker3{
@@ -193,7 +195,8 @@ p.tasker3{
   width: 150px;
   /* margin-left: 500px;
   margin-top: -5px; */
-  text-align: center;
+  text-align: left;
+  font-size: 15px;
   background-color: lightpink;
   margin-top: -130px;
 }
@@ -206,7 +209,8 @@ p.tasker4{
   margin-top: -130px;
   /* margin-left: 500px;
   margin-top: -5px; */
-  text-align: center;
+  text-align: left;
+  font-size: 15px;
   background-color: rgb(233, 233, 54);
  
 }
@@ -218,7 +222,8 @@ p.tasker5{
   width: 150px;
   /* margin-left: 500px;
   margin-top: -25px; */
-  text-align: center;
+  text-align: left;
+  font-size: 15px;
   margin-top: -120px;
   background-color: lightblue;
 }
@@ -231,7 +236,8 @@ p.tasker6{
   width: 150px;
   /* margin-left: 500px; */
   margin-top: -120px; 
-  text-align: center;
+  text-align: left;
+  font-size: 15px;
   background-color: rgb(180, 97, 180);
 }
 p.tasker7{
@@ -242,7 +248,8 @@ p.tasker7{
   width: 150px;
   /* margin-left: 500px;
   margin-top: -5px; */
-  text-align: center;
+  text-align: left;
+  font-size: 15px;
   margin-top: -120px;
   background-color: lightpink;
 }
@@ -254,7 +261,8 @@ p.tasker8{
   width: 150px;
   /* margin-left: 500px;
   margin-top: -5px; */
-  text-align: center;
+  text-align: left;
+  font-size: 15px;
   margin-top: -120px;
   background-color: green;
  
@@ -271,6 +279,16 @@ div.tasker{
   width: 150px;
   float:left;
   padding: 70px;
+  
+}
+form.formTask{
+  position: absolute;
+  
+  /* margin-bottom: -70px; */
+  margin-top: 450px; 
+  /* margin-left:00px ; */
+  
+  
 }
 
 div.customer{
@@ -287,9 +305,12 @@ p.customer1{
   width: 150px;
   /* margin-left: 500px;
   margin-top: -25px; */
-  text-align: center;
+  text-align: left;
+  font-size: 15px;
   background-color: lightblue;
   margin-top: -130px;
+
+  
 }
 p.customer2{
   /* flex: 90%; */
@@ -300,7 +321,8 @@ p.customer2{
   width: 150px;
   /* margin-left: 500px;
   margin-top: -5px; */
-  text-align: center;
+  text-align: left;
+  font-size: 15px;
   background-color: rgb(180, 97, 180);
 }
 p.customer3{
@@ -311,7 +333,8 @@ p.customer3{
   width: 150px;
   /* margin-left: 500px;
   margin-top: -5px; */
-  text-align: center;
+  text-align: left;
+  font-size: 15px;
   background-color: lightpink;
   margin-top: -130px;
 }
@@ -324,7 +347,8 @@ p.customer4{
   margin-top: -130px;
   /* margin-left: 500px;
   margin-top: -5px; */
-  text-align: center;
+  text-align: left;
+  font-size: 15px;
   background-color: rgb(233, 233, 54);
  
 }
@@ -336,7 +360,8 @@ p.customer5{
   width: 150px;
   /* margin-left: 500px;
   margin-top: -25px; */
-  text-align: center;
+  text-align: left;
+  font-size: 15px;
   margin-top: -120px;
   background-color: lightblue;
 }
@@ -349,7 +374,8 @@ p.customer6{
   width: 150px;
   /* margin-left: 500px; */
   margin-top: -120px; 
-  text-align: center;
+  text-align: left;
+  font-size: 15px;
   background-color: rgb(180, 97, 180);
 }
 p.customer7{
@@ -360,7 +386,8 @@ p.customer7{
   width: 150px;
   /* margin-left: 500px;
   margin-top: -5px; */
-  text-align: center;
+  text-align: left;
+  font-size: 15px;
   margin-top: -120px;
   background-color: lightpink;
 }
@@ -372,7 +399,8 @@ p.seller1{
   width: 150px;
   /* margin-left: 500px;
   margin-top: -25px; */
-  text-align: center;
+  text-align: left;
+  font-size: 15px;
   background-color: lightblue;
   margin-top: -130px;
 }
@@ -385,7 +413,8 @@ p.seller2{
   width: 150px;
   /* margin-left: 500px;
   margin-top: -5px; */
-  text-align: center;
+  text-align: left;
+  font-size: 15px;
   background-color: rgb(180, 97, 180);
 }
 p.seller3{
@@ -396,7 +425,8 @@ p.seller3{
   width: 150px;
   /* margin-left: 500px;
   margin-top: -5px; */
-  text-align: center;
+  text-align: left;
+  font-size: 15px;
   background-color: lightpink;
   margin-top: -130px;
 }
@@ -409,7 +439,8 @@ p.seller4{
   margin-top: -130px;
   /* margin-left: 500px;
   margin-top: -5px; */
-  text-align: center;
+  text-align: left;
+  font-size: 15px;
   background-color: rgb(233, 233, 54);
  
 }
@@ -421,7 +452,8 @@ p.seller5{
   width: 150px;
   /* margin-left: 500px;
   margin-top: -25px; */
-  text-align: center;
+  text-align: left;
+  font-size: 15px;
   margin-top: -120px;
   background-color: lightblue;
 }
@@ -434,7 +466,8 @@ p.seller6{
   width: 150px;
   /* margin-left: 500px; */
   margin-top: -120px; 
-  text-align: center;
+  text-align: left;
+  font-size: 15px;
   background-color: rgb(180, 97, 180);
 }
 p.seller7{
@@ -445,7 +478,8 @@ p.seller7{
   width: 150px;
   /* margin-left: 500px;
   margin-top: -5px; */
-  text-align: center;
+  text-align: left;
+  font-size: 15px;
   margin-top: -120px;
   background-color: lightpink;
 }
@@ -578,4 +612,23 @@ img.zoom{
 p#timer{
   font-size: 17px;
   text-align: center;
+}
+div.delete{
+  position: absolute;
+  margin-top: 55px;
+  margin-left: 120px;
+  
+}
+div.deleter{
+  position: absolute;
+  margin-top: 38px;
+  margin-left: 125px;
+  
+}
+div.updater{
+  position: absolute;
+  margin-top: 38px;
+  margin-left: -29px;
+
+  
 }

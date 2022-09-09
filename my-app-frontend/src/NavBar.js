@@ -46,13 +46,13 @@ const styles = {
             > Customers 
             </NavLink>
             <NavLink
-             to = "/SalesPersons" exact = "true"
+             to = "/Employees" exact = "true"
             style={styles} 
             
             activeclassname={{
                 background: "darkblue",
               }}
-            > SalesPersons
+            > Employees
             </NavLink>
             <NavLink to = "/PopularProducts" exact ="true"
             style={styles}
