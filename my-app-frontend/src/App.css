@@ -170,8 +170,8 @@ p.tasker1{
   /* margin-left: 500px;
   margin-top: -25px; */
   text-align: left;
-  font-size: 15px;
-  background-color: lightblue;
+  font-size: 19px;
+  background-color: lightpink;
   margin-top: -130px;
 }
 p.tasker2{
@@ -306,7 +306,7 @@ p.customer1{
   /* margin-left: 500px;
   margin-top: -25px; */
   text-align: left;
-  font-size: 15px;
+  font-size: 19px;
   background-color: lightblue;
   margin-top: -130px;
 
@@ -322,7 +322,7 @@ p.customer2{
   /* margin-left: 500px;
   margin-top: -5px; */
   text-align: left;
-  font-size: 15px;
+  font-size: 19px;
   background-color: rgb(180, 97, 180);
 }
 p.customer3{
@@ -334,7 +334,7 @@ p.customer3{
   /* margin-left: 500px;
   margin-top: -5px; */
   text-align: left;
-  font-size: 15px;
+  font-size: 19px;
   background-color: lightpink;
   margin-top: -130px;
 }
@@ -348,7 +348,7 @@ p.customer4{
   /* margin-left: 500px;
   margin-top: -5px; */
   text-align: left;
-  font-size: 15px;
+  font-size: 19px;
   background-color: rgb(233, 233, 54);
  
 }
@@ -361,7 +361,7 @@ p.customer5{
   /* margin-left: 500px;
   margin-top: -25px; */
   text-align: left;
-  font-size: 15px;
+  font-size: 19px;
   margin-top: -120px;
   background-color: lightblue;
 }
@@ -375,7 +375,7 @@ p.customer6{
   /* margin-left: 500px; */
   margin-top: -120px; 
   text-align: left;
-  font-size: 15px;
+  font-size: 19px;
   background-color: rgb(180, 97, 180);
 }
 p.customer7{
@@ -387,7 +387,7 @@ p.customer7{
   /* margin-left: 500px;
   margin-top: -5px; */
   text-align: left;
-  font-size: 15px;
+  font-size: 19px;
   margin-top: -120px;
   background-color: lightpink;
 }
@@ -400,8 +400,8 @@ p.seller1{
   /* margin-left: 500px;
   margin-top: -25px; */
   text-align: left;
-  font-size: 15px;
-  background-color: lightblue;
+  font-size: 19px;
+  background-color: rgb(233, 233, 54);
   margin-top: -130px;
 }
 p.seller2{
@@ -414,7 +414,7 @@ p.seller2{
   /* margin-left: 500px;
   margin-top: -5px; */
   text-align: left;
-  font-size: 15px;
+  font-size: 19px;
   background-color: rgb(180, 97, 180);
 }
 p.seller3{
@@ -426,7 +426,7 @@ p.seller3{
   /* margin-left: 500px;
   margin-top: -5px; */
   text-align: left;
-  font-size: 15px;
+  font-size: 19px;
   background-color: lightpink;
   margin-top: -130px;
 }
@@ -440,7 +440,7 @@ p.seller4{
   /* margin-left: 500px;
   margin-top: -5px; */
   text-align: left;
-  font-size: 15px;
+  font-size: 19px;
   background-color: rgb(233, 233, 54);
  
 }
@@ -453,7 +453,7 @@ p.seller5{
   /* margin-left: 500px;
   margin-top: -25px; */
   text-align: left;
-  font-size: 15px;
+  font-size: 19px;
   margin-top: -120px;
   background-color: lightblue;
 }
@@ -467,7 +467,7 @@ p.seller6{
   /* margin-left: 500px; */
   margin-top: -120px; 
   text-align: left;
-  font-size: 15px;
+  font-size: 19px;
   background-color: rgb(180, 97, 180);
 }
 p.seller7{
@@ -479,7 +479,7 @@ p.seller7{
   /* margin-left: 500px;
   margin-top: -5px; */
   text-align: left;
-  font-size: 15px;
+  font-size: 19px;
   margin-top: -120px;
   background-color: lightpink;
 }
