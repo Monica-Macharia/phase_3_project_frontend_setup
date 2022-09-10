@@ -1,4 +1,6 @@
 import React, { useEffect, useState} from 'react';
+import EmployeeDelete from './EmployeeDelete';
+import EmployeeForm from './EmployeeForm';
 
 
 function Employees(){
@@ -10,6 +12,14 @@ useEffect(()=>{
         .then((r) => r.json())
         .then((employees) => setEmployees(employees));
     }, []);
+
+    function handleAddEmployee(newEmployee){
+        setEmployees([...employees, newEmployee])
+    }
+
+    // function handleDeleteEmployee(deletedEmployee){
+    //     const 
+    // }
 
 
 
@@ -32,6 +42,7 @@ useEffect(()=>{
             </div>
          </p>
         </div>)}
+        <EmployeeForm onAddEmployee = {handleAddEmployee}/>
           
         
         </div>
