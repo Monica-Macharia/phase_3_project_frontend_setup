@@ -1,6 +1,6 @@
 import React, {useEffect, useState} from 'react';
 import Form from "./Form.js";
-// import PriceForm from "./PriceForm.js";
+import TaskDelete from "./TaskDelete.js";
 
 function Tasks(){
     const[tasks, setTasks] = useState([]);
@@ -13,6 +13,11 @@ function Tasks(){
 
     function handleAddItem(newData){
         setTasks([...tasks, newData])
+    }
+
+    function handleTaskDelete(deletedTask){
+        const updateTasks = tasks.filter((task) => task.id !== deletedTask.id);
+        setTasks(updateTasks);
     }
 
     return (
@@ -33,17 +38,19 @@ function Tasks(){
             <div className = "updater">
                 <button>Change Price</button>
             </div>
-            <div className = "deleter">
-                <button>Delete</button>
-            </div>
+           {tasks.map((task) => (
+               <TaskDelete
+               id={task.id}
+               key={task.id}
+               task={task}
+               onDeleteTask={handleTaskDelete} />
+           ))}
          </p>
         </div>)}
         <Form onAddItem={handleAddItem}/>  
-        {/* <PriceForm />      */}
+       
         </div>
-        
-   
-    
+         
 
     </div>
 )
