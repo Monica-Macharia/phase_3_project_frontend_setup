@@ -22,7 +22,7 @@ function UpdatePrice({ task, onUpdateTask }) {
       return(
           <form className = "updater" onSubmit= {handleSubmit}>
                 <label>
-              Update Price:
+              <em>Update Price:</em>
                 <input type = "number" name="price" value= {price} onChange={(e) => setPrice(e.target.value)}/>
             </label>
             <label>

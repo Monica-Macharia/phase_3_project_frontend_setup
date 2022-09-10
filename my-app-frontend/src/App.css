@@ -617,18 +617,23 @@ div.delete{
   position: absolute;
   margin-top: 55px;
   margin-left: 120px;
+  color: red;
   
 }
 div.deleter{
   position: absolute;
-  margin-top: 38px;
+  margin-top: -288px;
   margin-left: 125px;
+  
   
 }
 div.updater{
   position: absolute;
   margin-top: 38px;
   margin-left: -29px;
-
-  
+}
+form.updater{
+  margin-top: 38px;
+  margin-left: -33px;
+  font-size: 17px;
 }
