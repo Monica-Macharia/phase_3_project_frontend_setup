@@ -1,5 +1,6 @@
 import React, { useEffect, useState} from 'react';
-
+import CustomerDelete from './CustomerDelete';
+import CustomerForm from './CustomerForm';
 
 function Customers(){
     const[customers, setCustomers] = useState([]);
@@ -10,6 +11,16 @@ function Customers(){
         .then((customers) => setCustomers(customers));
     }, []);
 
+    function handleAddCustomer(newCustomer){
+        setCustomers([...customers, newCustomer])
+    }
+
+    function handleDelete(deletedCustomer){
+        const updateCustomers = customers.filter((customer) => customer.id !== deletedCustomer.id);
+        setCustomers(updateCustomers);
+    }
+
+   
     return (
     <div className="appBody">
         <p className= "customer"><h2>Customers</h2></p>
@@ -23,89 +34,19 @@ function Customers(){
             <b><em>Location:</em></b> {customer.location}<br /> 
             <b><em>Contact:</em> </b>{customer.contact} <br />
             <b><em>Comment:</em></b> {customer.comment} <br />
-            <div className = "delete">
-                <button>Delete</button>
-            </div>
+            {customers.map((customer) => (
+            <CustomerDelete
+            id={customer.id}
+            key={customer.id}
+            customer={customer}
+            // updatedCustomers={handleUpdateCustomer}
+            onDeleteCustomer={handleDelete} /> 
+            ))}
          </p>
         </div>)}
+        <CustomerForm onAddCustomer = {handleAddCustomer}/>
 
-        <div className= "customer">
-            <p className = "customer2">
-            Name: <br/>
-            Location:<br /> 
-            Contact: <br />
-            Comment: <br />
-            <div className = "delete">
-                <button>Delete</button>
-            </div>
-         </p>
-        </div>
-
-        <div className= "customer">
-            <p className = "customer3">
-            Name: <br/>
-            Location:<br /> 
-            Contact: <br />
-            Comment: <br />
-            <div className = "delete">
-                <button>Delete</button>
-            </div>
-         </p>
-        </div>
-
-        <div className= "customer">
-            <p className = "customer4">
-            Name: <br/>
-            Location:<br /> 
-            Contact: <br />
-            Comment: <br />
-            <div className = "delete">
-                <button>Delete</button>
-            </div>
-         </p>
-        </div>
-
-        <div className= "customer">
-            <p className = "customer5">
-            Name: <br/>
-            Location:<br /> 
-            Contact: <br />
-            Comment: <br />
-            <div className = "delete">
-                <button>Delete</button>
-            </div>
-         </p>
-        </div>
-
-        <div className= "customer">
-            <p className = "customer6">
-            Name: <br/>
-            Location:<br /> 
-            Contact: <br />
-            Comment: <br />
-            <div className = "delete">
-                <button>Delete</button>
-            </div>
-         </p>
-        </div>
-
-        <div className= "customer">
-            <p className = "customer7">
-            Name: <br/>
-            Location:<br /> 
-            Contact: <br />
-            Comment: <br />
-            <div className = "delete">
-                <button>Delete</button>
-            </div>
-         </p>
-        </div>
-       
-
-        
-        
-
-        
+            
 
 
         </div>

@@ -1,5 +1,6 @@
 import React, {useEffect, useState} from 'react';
 import Form from "./Form.js";
+// import PriceForm from "./PriceForm.js";
 
 function Tasks(){
     const[tasks, setTasks] = useState([]);
@@ -37,7 +38,8 @@ function Tasks(){
             </div>
          </p>
         </div>)}
-        <Form onAddItem={handleAddItem}/>       
+        <Form onAddItem={handleAddItem}/>  
+        {/* <PriceForm />      */}
         </div>
         
    
