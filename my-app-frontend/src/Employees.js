@@ -17,9 +17,10 @@ useEffect(()=>{
         setEmployees([...employees, newEmployee])
     }
 
-    // function handleDeleteEmployee(deletedEmployee){
-    //     const 
-    // }
+    function handleEmployeeDelete(deletedEmployee){
+        const updateEmployees = employees.filter((employee) => employee.id !== deletedEmployee.id);
+        setEmployees(updateEmployees);
+    }
 
 
 
@@ -37,9 +38,13 @@ useEffect(()=>{
             <b><em>Location:</em></b> {employee.location} <br /> 
             <b><em>Contact:</em></b> {employee.contact} <br />
             <b><em>Comment:</em></b> {employee.comment} <br />
-            <div className = "delete">
-                <button>Delete</button>
-            </div>
+            {employees.map((employee) => (
+                <EmployeeDelete
+                id={employee.id}
+                key={employee.id}
+                employee={employee}
+                onDeleteEmployee={handleEmployeeDelete} />
+            ))}
          </p>
         </div>)}
         <EmployeeForm onAddEmployee = {handleAddEmployee}/>
