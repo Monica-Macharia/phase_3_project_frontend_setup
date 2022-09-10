@@ -1,6 +1,7 @@
 import React, {useEffect, useState} from 'react';
 import Form from "./Form.js";
 import TaskDelete from "./TaskDelete.js";
+import UpdatePrice from "./UpdatePrice.js"
 
 function Tasks(){
     const[tasks, setTasks] = useState([]);
@@ -13,6 +14,10 @@ function Tasks(){
 
     function handleAddItem(newData){
         setTasks([...tasks, newData])
+    }
+
+    function onUpdateTask(newPrice){
+        setTasks([...tasks, newPrice])
     }
 
     function handleTaskDelete(deletedTask){
@@ -35,9 +40,7 @@ function Tasks(){
             <b><em>Status:</em></b> {task.status}<br />
             <b><em>Customer_id:</em></b> {task.customer_id} <br />
             <b><em>Employee_id:</em> </b>{task.employee_id}<br />
-            <div className = "updater">
-                <button>Change Price</button>
-            </div>
+            <UpdatePrice task = {task} onUpdateTask = {onUpdateTask} />
            {tasks.map((task) => (
                <TaskDelete
                id={task.id}
