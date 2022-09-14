@@ -10,11 +10,7 @@ A sales tracker with five routes to Home, Tasks, Customers, Employees and Popula
 
 #Guidelines
 
-A link to my frontend repository : initial repo(https://github.com/Monica-Macharia/phase_3_project_frontend_setup/tree/master/my-app-frontend)
-deployment repo(https://github.com/Monica-Macharia/salestracker_frontend)
-
-A live link to the application hosted on Vercel and heroku (https://salestracker-frontend.vercel.app/)
-
+A link to my backend repository:  https://github.com/Monica-Macharia/phase-3-sinatra-react-project/
 
 # License
 MIT Copyright (c) 2022
